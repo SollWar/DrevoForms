@@ -97,7 +97,6 @@ namespace DrevoForms
 
         public void print1(Node n, int step, List<List<int>> lst)
         {
-
             if (n.right != null)
                 print1(n.right, step + 1, lst);
 
@@ -106,7 +105,7 @@ namespace DrevoForms
             lst.Last().Add(n.val);
             lst.Add(new List<int>());
 
-            if (n.right != null)
+            if (n.left != null)
                 print1(n.left, step + 1, lst);
         }
 
