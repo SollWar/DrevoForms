@@ -1,0 +1,9 @@
+C:\Users\Sollw\source\repos\DrevoForms\bin\Debug\DrevoForms.exe.config
+C:\Users\Sollw\source\repos\DrevoForms\bin\Debug\DrevoForms.exe
+C:\Users\Sollw\source\repos\DrevoForms\bin\Debug\DrevoForms.pdb
+C:\Users\Sollw\source\repos\DrevoForms\obj\Debug\DrevoForms.csprojAssemblyReference.cache
+C:\Users\Sollw\source\repos\DrevoForms\obj\Debug\DrevoForms.Form1.resources
+C:\Users\Sollw\source\repos\DrevoForms\obj\Debug\DrevoForms.Properties.Resources.resources
+C:\Users\Sollw\source\repos\DrevoForms\obj\Debug\DrevoForms.csproj.GenerateResource.cache
+C:\Users\Sollw\source\repos\DrevoForms\obj\Debug\DrevoForms.exe
+C:\Users\Sollw\source\repos\DrevoForms\obj\Debug\DrevoForms.pdb
