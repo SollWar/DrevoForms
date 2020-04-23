@@ -95,6 +95,7 @@ namespace DrevoForms
             return temp;
         }
 
+
         public void print1(Node n, int step, List<List<int>> lst)
         {
             if (n.right != null)
