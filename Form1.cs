@@ -45,8 +45,14 @@ namespace DrevoForms
                     w++;
                     if (j >= 0)
                     {
-                        g.DrawEllipse(p, w * 20, h * 32, 30, 30);
-                        g.DrawString(Convert.ToString(j), DefaultFont, Brushes.Black,(w * 20) + 9, (h * 32) + 9);
+                        g.FillEllipse(Brushes.Yellow, w * 20, h * 22, 21, 20);
+                        g.DrawEllipse(p, w * 20, h * 22, 21, 20);
+                        if ((int)Math.Log10(j) + 1 == 1 | j == 0)
+                            g.DrawString(Convert.ToString(j), DefaultFont, Brushes.Black,(w * 20) + 5, (h * 22) + 4);
+                        if ((int)Math.Log10(j) + 1 == 2)
+                            g.DrawString(Convert.ToString(j), DefaultFont, Brushes.Black, (w * 20) + 2, (h * 22) + 4);
+                        if ((int)Math.Log10(j) + 1 == 3)
+                            g.DrawString(Convert.ToString(j), DefaultFont, Brushes.Black, (w * 20), (h * 22) + 4);
                     }
                 }
             }
