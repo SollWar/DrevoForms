@@ -32,7 +32,6 @@ namespace DrevoForms
                 bt.Insert(Convert.ToInt32(textBox1.Text));
             textBox1.Text = "";
 
-
             h = 0;
             w = 1;
 
